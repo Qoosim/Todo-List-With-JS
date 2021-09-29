@@ -1,7 +1,8 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Webpack-BoilerPlate
 > This is simple but powerful webpack boilerplate where I configured basic settings for webpack like HtmlWebpackPlugin, css, local dev server and more.
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## Getting Started
 
