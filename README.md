@@ -1,2 +1,2 @@
-# Webpack-BloilerPlate
-I will build a simple but powerful webpack boilerplate, which you can later be used as a starting point in my projects.
+# Webpack-BoilerPlate
+I will build a simple but powerful webpack boilerplate, which can later be used as a starting point in my projects.
