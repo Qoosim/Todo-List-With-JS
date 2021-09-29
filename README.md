@@ -16,8 +16,8 @@ clone the project and you can start your own project on it.
 
 👤 **Qoosim AbdulGhaniyy**
 
-- GitHub: [@githubhandle](https://github.com/Qoosim)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/qoosim)
+- GitHub: [Qoosim](https://github.com/Qoosim)
+- LinkedIn: [Qoosim](https://www.linkedin.com/in/qoosim)
 
 ## 🤝 Contributing
 
