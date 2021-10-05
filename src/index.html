@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
-</head>
-<body>
-    <h1>Hello webpack!</h1>
-</body>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Wbpack Exercise</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="app">
+        <h1>TO DO LIST</h1>
+        <form>
+          <input type="text" placeholder="Add new task...">
+          <button type="submit" onclick="addTask();return false">&plus;</button>
+        </form>
+        <ul>
+          <li>
+            <input type="checkbox" onclick="taskComplete(this)" class="check">
+            <input type="text" value="Exercise" class="task" onfocus="getCurrentTask(this)" onblur="editTask(this)">
+            <i class="fa fa-trash" onclick="removeTask(this)"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
