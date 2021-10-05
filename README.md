@@ -13,7 +13,7 @@
 To get a local copy up and running follow these simple example steps.
 clone the project and you can start your own project on it.
 
-## Authors
+## Author
 
 👤 **Qoosim AbdulGhaniyy**
 
