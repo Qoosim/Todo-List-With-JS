@@ -92,3 +92,14 @@ function taskComplete(event) {
     event.nextElementSibling.classList.toggle('completed');
 }
 
+function removeTask(event) {
+    let tasks = Array.from(JSON.parse(localStorage.getItem('tasks')));
+    tasks.forEach(task => {
+        if (task.task === event.parentNode.children[1].value) {
+            // delete task
+            tasks.splice(tasks.indexOf(task), 1);
+        }
+    })
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+    event.parentelement.remove();
+}
