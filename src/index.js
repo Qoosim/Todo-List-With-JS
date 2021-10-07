@@ -51,3 +51,34 @@ function addTask() {
     // clear input
     task.value = '';
 }
+
+// store curent task to track changes
+let currentTask = null;
+
+// get current task
+function getCurrentTask(event) {
+    currentTask = event.value;
+}
+
+// edit the task and update local storage
+function editTask(event) {
+    let task = Array.from(JSON.parse(localStorage.getItem('tasks')));
+    // check if task is empty
+    if (event.value === '') {
+        alert('Task is empty');
+        event.value = currentTask;
+        return;
+    }
+
+    // task already exist
+    tasks.forEach(task => {
+        if (task.task === curentTask) {
+            task.task = event.value;
+        }
+    })
+
+    // update local storage
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+}
+
+
